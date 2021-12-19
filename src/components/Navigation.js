@@ -42,25 +42,25 @@ const Navigation = () =>{
 				<ul className={click ? "nav-menu active" : "nav-menu"}>
 					<li className="nav-item">
 						<Link to="/" className="nav-link" onClick={closeMenu}>
-							Home
+							1. Home
 						</Link>
 					</li>
 
 					<li className="nav-item">
 						<Link to="/projects" className="nav-link" onClick={closeMenu}>
-							Projects
+							2. Projects
 						</Link>
 					</li>
 
 					<li className="nav-item">
 						<Link to="/contacts" className="nav-link" onClick={closeMenu}>
-							Contacts
+							3. Contacts
 						</Link>
 					</li>
 
 					<li className="nav-item">
 						<Link to="/misc" className="nav-link" onClick={closeMenu}>
-							Misc
+							4. Misc
 						</Link>
 					</li>
 
