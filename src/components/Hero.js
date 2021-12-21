@@ -4,14 +4,29 @@ import './Hero.css'
 
 const Hero = () =>{
 	return(
-		<div className="hero-container">
-			<video src="/videos/hero-bg-2.mp4" autoPlay muted loop/>
-			<h1>Hubert Hartan</h1>
-			<h2>Software {String.fromCharCode(38)} Web Developer</h2>
-			<Button className="view-work">View my Work</Button>
-			<Button className="contant-me">Contact Me</Button>
+		<>
+
+			<div className="hero-container">
 			
-		</div>
+				<h1>Hello, <span className="name-color"> Hubert Hartan</span> Here!</h1>
+				<h2>Software {String.fromCharCode(38)} Web Developer</h2>
+				<Button className="view-work">Previous Projects</Button>
+				<Button className="contact-me">Contact Me</Button>
+		
+
+			</div>
+
+			<div className="animation-area">
+				<ul class="box-area">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</>
 
 	)
 
