@@ -42,7 +42,7 @@ const Navigation = () =>{
 				<ul className={click ? "nav-menu active" : "nav-menu"}>
 					<li className="nav-item">
 						<Link to="/" className="nav-link" onClick={closeMenu}>
-							1. Home
+							1. Home 
 						</Link>
 					</li>
 
