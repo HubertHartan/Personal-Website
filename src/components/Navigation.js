@@ -58,12 +58,6 @@ const Navigation = () =>{
 						</Link>
 					</li>
 
-					<li className="nav-item">
-						<Link to="/misc" className="nav-link" onClick={closeMenu}>
-							4. Misc
-						</Link>
-					</li>
-
 				</ul>
 
 			</div>

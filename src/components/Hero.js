@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
 import './Hero.css'
 
 const Hero = () =>{
@@ -8,11 +7,12 @@ const Hero = () =>{
 
 			<div className="hero-container">
 			
-				<h1>Hello, <span className="name-color"> Hubert Hartan</span> Here!</h1>
+				<h1><span className="name-color">Hubert Hartan</span></h1>
 				<h2>Software {String.fromCharCode(38)} Web Developer</h2>
-				<Button className="view-work">Previous Projects</Button>
-				<Button className="contact-me">Contact Me</Button>
-		
+				<a href="/projects" className="view-work">Previous Projects</a>
+				<a href="/contacts" className="contact-me">Contact Me</a>
+				
+				<div className="tagline">I'm a developer who is self-driven and motivated to continuously improve. I aim to master and learn new concepts in the tech industry.</div>
 
 			</div>
 
