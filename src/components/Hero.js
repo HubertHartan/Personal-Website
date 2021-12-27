@@ -7,8 +7,8 @@ const Hero = () =>{
 
 			<div className="hero-container">
 			
-				<h1><span className="name-color">Hubert Hartan</span></h1>
-				<h2>Software {String.fromCharCode(38)} Web Developer</h2>
+				<div className="name">Hubert Hartan</div>
+				<div className="title">Software {String.fromCharCode(38)} Web Developer</div>
 				<a href="/projects" className="view-work">Previous Projects</a>
 				<a href="/contacts" className="contact-me">Contact Me</a>
 				
