@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react'
-import {Link} from 'react-router-dom'
 import './Navigation.css'
 
 const Navigation = () =>{
@@ -32,30 +31,30 @@ const Navigation = () =>{
 	return(
 		<nav className="navigation">
 			<div className="navigation-container">
-				<Link to="/" className="navigation-logo">
+				<a href="#top" className="navigation-logo">
 					Logo
-				</Link>
+				</a>
 				{!displayItems && <div className="menu-icon" onClick={handleClick}>
 					<i className={click ? "fas fa-times":"fas fa-bars"}/>
 				</div>}
 
 				<ul className={click ? "nav-menu active" : "nav-menu"}>
 					<li className="nav-item">
-						<Link to="/" className="nav-link" onClick={closeMenu}>
+						<a href="#top" className="nav-link" onClick={closeMenu}>
 							Home 
-						</Link>
+						</a>
 					</li>
 
 					<li className="nav-item">
-						<Link to="/projects" className="nav-link" onClick={closeMenu}>
+						<a href="#projects" className="nav-link" onClick={closeMenu}>
 							Projects
-						</Link>
+						</a>
 					</li>
 
 					<li className="nav-item">
-						<Link to="/contacts" className="nav-link" onClick={closeMenu}>
+						<a href="#contacts" className="nav-link" onClick={closeMenu}>
 							Contacts
-						</Link>
+						</a>
 					</li>
 
 				</ul>

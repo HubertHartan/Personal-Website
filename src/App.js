@@ -1,23 +1,23 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
 
 
 import Navigation from './components/Navigation';
-import Home from './pages/Home';
+import Hero from './components/Hero';
+import About from './components/About';
 import './App.css';
 
 function App() {
   return (
-    <>
-	<Router>
+    <div id="top">
+
 
 	  <Navigation/>
-	  <Routes>
-		<Route path='/' exact element={<Home/>}/>
-	  </Routes>
-	</Router>
+	  <Hero/>
+	  <About/>
+	 
 		
-    </>
+    </div>
   );
 }
 

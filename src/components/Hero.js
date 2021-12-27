@@ -3,7 +3,7 @@ import './Hero.css'
 
 const Hero = () =>{
 	return(
-		<>
+		<div>
 
 			<div className="hero-container">
 			
@@ -26,7 +26,7 @@ const Hero = () =>{
 					<li></li>
 				</ul>
 			</div>
-		</>
+		</div>
 
 	)
 
