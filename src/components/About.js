@@ -2,13 +2,26 @@ import React from 'react';
 
 const About = () =>{
 	return(
-		<>
+		<div id="about">
 			<div className="about-container">
-				<div className='title'>About me</div>
-				<div className="description">I am a Software {String.fromCharCode(38)} Web Developer, who  </div>
+			About Me
+				<div className="description">
+				
+					<p>
+						A diligent Software {String.fromCharCode(38)} Web Developer,
+						who completed a Bachelor of Science, majoring in Software Technology at Macquarie University.
+						I'm experienced with FullStack Development, with my specialty being Front-End Development. 
+					</p>
+					<p>
+						I’m actively searching for experience and knowledge, 
+						and I’m driven by a desire to understand and learn new concepts. 
+						I approach problems with a positive attitude and with deep appreciation 
+						for teamwork and efficient collaboration. 
+					</p>
+				</div>
 
 			</div>
-		</>
+		</div>
 	)
 
 }
