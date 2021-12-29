@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import './Navigation.css'
+import '../CSS/Navigation.css'
 
 const Navigation = () =>{
 	const [click, setClick] = useState(false);
