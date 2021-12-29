@@ -6,9 +6,9 @@ const About = () =>{
 	return(
 		<div id="about">
 			<div className="about-container">
-			About Me
-				<div className="description">
 				
+				<div className="description">
+					<p className='about-title'>About Me</p>
 					<p>
 						A diligent Software {String.fromCharCode(38)} Web Developer,
 						who completed a Bachelor of Science, majoring in Software Technology at Macquarie University.
