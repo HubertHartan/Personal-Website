@@ -7,14 +7,14 @@ a:hover{
 .name{
 	color:#28FFBF;
 	font-size: 500%;
-	margin-left: 7vh;
+	margin-left: 20vh;
 	margin-top: 10vh;
 	font-weight: bold;
 }
 .title{
 	color: white;
 	font-size: 300%;
-	margin-left: 7vh;
+	margin-left: 20vh;
 	margin-top: 5vh;
 	font-weight: bold;
 }
@@ -22,7 +22,7 @@ a:hover{
 
 .tagline{
 	color: white;
-	margin-left: 7vh;
+	margin-left: 20vh;
 	margin-top: 15vh;
 	font-size: 110%;
 }
@@ -31,7 +31,7 @@ a:hover{
   position:absolute;
   width: 25vh;
   height: 8vh;
-  margin-left: 7vh;
+  margin-left: 20vh;
   margin-top: 30vh;
   color: #28FFBF;
   border:solid;
@@ -56,7 +56,7 @@ a:hover{
 	position: absolute;
 	width: 25vh;
   	height: 8vh;
-	left: 40vh;
+	left: 53vh;
 	margin-top: 30vh;
 	color: #ffffff;
 	border: solid;

@@ -1,7 +1,16 @@
+/*@font-face {
+    font-family: "Avant Garde Gothic";
+    src: url(avantgardegothic.woff) format('woff'),
+         url(avantgardegothic.woff2) format('woff2'),
+         url(avantgardegothic.eot) format('embedded-opentype'),
+         url(avantgardegothic.otf) format('opentype');
+}*/
+
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	/*font-family: "Avant Garde Gothic", "Open Sans",'PT Sans', sans-serif;*/
 	font-family: 'PT Sans', sans-serif;
   }
 

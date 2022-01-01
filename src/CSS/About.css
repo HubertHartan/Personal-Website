@@ -1,9 +1,41 @@
+
 .about-title{
+	padding-left: 20vh;
 	color:#28FFBF;
 	font-size: 5vh;
 }
 
+.about-body{
+	padding-left: 20vh;
+	width: 110vh;
+	
+}
+
+
+p{
+	padding-top: 5vh;
+}
+.skill-list{
+	padding-left: 23vh;
+	padding-top: 6vh;
+}
+
 .description{
+	float: left;
 	color:#dcd5e0;
 	font-size: 3vh;
+}
+
+
+.profile-pic{
+	position: absolute;
+	height: 60vh;
+	float:right;
+	margin-top: 10vh;
+	margin-left: 40vh;
+}
+
+.about-container{
+	overflow:auto;
+	
 }
