@@ -1,0 +1,45 @@
+.tax-container{
+	overflow:auto;
+	
+}
+
+
+.tax-pic{
+	float: left;
+	height: 50vh;
+	padding-left: 20vh;
+}
+
+.tax-title{
+	padding-top: 1vh;
+	padding-bottom: 3vh;
+	color: #28FFBF;
+	font-size: 5vh;
+	font-weight: bolder;
+}
+
+.fa-github{
+	color: white;
+	font-size: 5vh;
+	padding-right: 3vh;
+	padding-top: 1vh;
+}
+
+.fa-external-link-alt{
+	color: white;
+	font-size: 5vh;
+}
+
+a:link, a:visited {
+    color: white;
+}
+
+
+.tax-info{
+	float:right;
+	padding-right: 20vh;
+}
+p{
+	color:#dcd5e0;
+	padding-top: 1vh;
+}
