@@ -8,7 +8,7 @@ const Tax = () =>{
 				<div className="tax-title">Tax-o-tron</div>
 				<div className="tax-body">
 					<p>Created using React.js</p>
-					<p>A simple application to help calculate the amount of tax an individual should pay.</p>
+					<p>A Front-End application to help calculate the amount of tax an individual should pay.</p>
 					<p>The region is set to Australia by default. While the income year is set to 2020-2021.</p>
 					<p>Current future plans for the application is to expand the income year.</p>
 					<br></br>
