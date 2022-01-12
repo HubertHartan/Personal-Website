@@ -1,6 +1,6 @@
 .tax-container{
 	overflow:auto;
-	
+	padding-top: 10vh;
 }
 
 
@@ -11,7 +11,7 @@
 }
 
 .tax-title{
-	padding-top: 1vh;
+	
 	padding-bottom: 3vh;
 	color: #28FFBF;
 	font-size: 5vh;

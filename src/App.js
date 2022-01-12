@@ -7,6 +7,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import PageBreak from './components/PageBreak';
 import Tax from './components/Tax'
+import Fuel from './components/Fuel'
 import './CSS/App.css';
 
 
@@ -20,6 +21,7 @@ function App() {
 	  <About/>
 	  <PageBreak/>
 	  <Tax/>
+	  <Fuel/>
 	 
 		
     </div>

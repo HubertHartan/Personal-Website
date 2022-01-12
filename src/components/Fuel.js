@@ -8,8 +8,8 @@ const Fuel = () =>{
 				<div className="fuel-title">Fuel Checker</div>
 				<div className="fuel-body">
 					<p>Created using React.js and Express.js</p>
-					<p>A FullStack application that keeps track of Fuel Prices at 
-						all fuel stations at the state of New South Wales</p>
+					<p>A FullStack application that keeps track of Fuel Prices at New South Wales.</p>
+					<p>Allows users to monitor and arrange their fuel purchases according to recent trends.</p>
 					<p>Uses Auth0 for user authentication </p>
 					<p>Developed in collaboration with fellow students: </p>
 					<a href="https://github.com/Flynntes" target="_blank" rel="noreferrer">Flynn Tesoriero</a> 
