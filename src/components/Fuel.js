@@ -10,11 +10,13 @@ const Fuel = () =>{
 					<p>Created using React.js and Express.js</p>
 					<p>A FullStack application that keeps track of Fuel Prices at New South Wales.</p>
 					<p>Allows users to monitor and arrange their fuel purchases according to recent trends.</p>
-					<p>Uses Auth0 for user authentication </p>
 					<p>Developed in collaboration with fellow students: </p>
-					<a href="https://github.com/Flynntes" target="_blank" rel="noreferrer">Flynn Tesoriero</a> 
-					<a href="https://github.com/nipunshrestha" target="_blank" rel="noreferrer">Nipun Shrestha</a> 
-					<a href="https://github.com/TrideepLD" target="_blank" rel="noreferrer">Trideep Lal Das</a>
+					<ul>
+						<li><a href="https://github.com/Flynntes" target="_blank" rel="noreferrer">Flynn Tesoriero</a> </li>
+						<li><a href="https://github.com/nipunshrestha" target="_blank" rel="noreferrer">Nipun Shrestha</a> </li>
+						<li><a href="https://github.com/TrideepLD" target="_blank" rel="noreferrer">Trideep Lal Das</a></li>
+					</ul>
+	
 					<br></br>
 				</div>
 				<a href="https://github.com/HubertHartan/Fuel-Checker-Web-Application" target="_blank" rel="noreferrer">

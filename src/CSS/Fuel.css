@@ -1,12 +1,16 @@
 .fuel-container{
 	overflow:auto;
-	padding-top: 10vh;
+	padding-top: 20vh;
 }
 
-
+ul{
+	padding-top: 5vh;
+	color: white;
+}
 .fuel-pic{
 	float: right;
 	width:100vh;
+	height:40vh;
 	padding-right: 20vh;
 }
 
