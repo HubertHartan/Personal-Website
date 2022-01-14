@@ -11,10 +11,10 @@ const Fuel = () =>{
 					<p>A FullStack application that keeps track of Fuel Prices at New South Wales.</p>
 					<p>Allows users to monitor and arrange their fuel purchases according to recent trends.</p>
 					<p>Developed in collaboration with fellow students: </p>
-					<ul>
-						<li><a href="https://github.com/Flynntes" target="_blank" rel="noreferrer">Flynn Tesoriero</a> </li>
-						<li><a href="https://github.com/nipunshrestha" target="_blank" rel="noreferrer">Nipun Shrestha</a> </li>
-						<li><a href="https://github.com/TrideepLD" target="_blank" rel="noreferrer">Trideep Lal Das</a></li>
+					<ul className="team">
+						<li className="teammate"><a href="https://github.com/Flynntes" target="_blank" rel="noreferrer" className="teammate-link"><i className="fab fa-github-square"/> Flynn Tesoriero</a> </li>
+						<li className="teammate"><a href="https://github.com/nipunshrestha" target="_blank" rel="noreferrer" className="teammate-link"><i className="fab fa-github-square"/> Nipun Shrestha</a> </li>
+						<li><a href="https://github.com/TrideepLD" target="_blank" rel="noreferrer" className="teammate-link"><i className="fab fa-github-square"/> Trideep Lal Das</a></li>
 					</ul>
 	
 					<br></br>
