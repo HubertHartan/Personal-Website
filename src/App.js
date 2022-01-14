@@ -8,6 +8,8 @@ import About from './components/About';
 import PageBreak from './components/PageBreak';
 import Tax from './components/Tax'
 import Fuel from './components/Fuel'
+import Poem from './components/Poem'
+
 import './CSS/App.css';
 
 
@@ -22,6 +24,7 @@ function App() {
 	  <PageBreak/>
 	  <Tax/>
 	  <Fuel/>
+	  <Poem/>
 	 
 		
     </div>
