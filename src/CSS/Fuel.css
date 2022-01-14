@@ -1,16 +1,14 @@
+/*Main title and body*/
 .fuel-container{
 	overflow:auto;
 	padding-top: 20vh;
 }
 
-ul{
-	padding-top: 5vh;
-	color: white;
-}
 .fuel-pic{
 	float: right;
-	width:100vh;
-	height:40vh;
+	
+	height:41vh;
+	
 	padding-right: 20vh;
 }
 
@@ -22,6 +20,17 @@ ul{
 	font-weight: bolder;
 }
 
+.fuel-info{
+	float:left;
+	padding-left: 20vh;
+}
+
+p{
+	color:#dcd5e0;
+	padding-top: 1vh;
+}
+
+/*Logos and link*/
 .fa-github{
 	color: white;
 	font-size: 5vh;
@@ -34,16 +43,21 @@ ul{
 	font-size: 5vh;
 }
 
-a:link, a:visited {
-    color: white;
+
+/*List styling for teammate links*/
+.team{
+	padding-top: 2vh;
+	color: white;
+	list-style: none;
+}
+
+.teammate{
+	padding-bottom: 2vh;
+}
+.teammate-link{
+	text-decoration: none;
 }
 
 
-.fuel-info{
-	float:left;
-	padding-left: 20vh;
-}
-p{
-	color:#dcd5e0;
-	padding-top: 1vh;
-}
+
+
