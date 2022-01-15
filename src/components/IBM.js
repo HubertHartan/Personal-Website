@@ -1,5 +1,5 @@
 import React from 'react'
-
+import ReactPlayer from "react-player"
 
 
 
@@ -34,7 +34,7 @@ const IBM = () =>{
 					<i className="fab fa-github"/>
 				</a>
 			</div>
-			
+			<ReactPlayer url="https://www.youtube.com/watch?v=7Q6wFk3w7cE"/>
 		</div>
 	)
 }
