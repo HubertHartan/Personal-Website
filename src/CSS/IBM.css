@@ -1,0 +1,62 @@
+/*Main title and body*/
+.IBM-container{
+	overflow:auto;
+	padding-top: 20vh;
+}
+
+
+
+.IBM-title{
+	
+	padding-bottom: 3vh;
+	color: #28FFBF;
+	font-size: 5vh;
+	font-weight: bolder;
+}
+
+.IBM-info{
+	float:left;
+	padding-left: 20vh;
+}
+
+.video{
+	float:right;
+	margin-right: 20vh;
+}
+
+p{
+	color:#dcd5e0;
+	padding-top: 1vh;
+}
+
+/*Logos and link*/
+.fa-github{
+	color: white;
+	font-size: 5vh;
+	padding-right: 3vh;
+	padding-top: 1vh;
+}
+
+.fa-external-link-alt{
+	color: white;
+	font-size: 5vh;
+}
+
+
+/*List styling for teammate links*/
+.team{
+	padding-top: 2vh;
+	color: white;
+	list-style: none;
+}
+
+.teammate{
+	padding-bottom: 2vh;
+}
+.teammate-link{
+	text-decoration: none;
+}
+
+
+
+
