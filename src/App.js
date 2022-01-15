@@ -9,6 +9,7 @@ import PageBreak from './components/PageBreak';
 import Tax from './components/Tax'
 import Fuel from './components/Fuel'
 import Poem from './components/Poem'
+import IBM from './components/IBM';
 
 import './CSS/App.css';
 
@@ -23,8 +24,7 @@ function App() {
 	  <About/>
 	  <PageBreak/>
 	  <Tax/>
-	  <Fuel/>
-	  <Poem/>
+	  <IBM/>
 	 
 		
     </div>
