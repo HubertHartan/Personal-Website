@@ -52,7 +52,7 @@ const Navigation = () =>{
 					</li>
 
 					<li className="nav-item">
-						<a href="#projects" className="nav-link" onClick={closeMenu}>
+						<a href="#project" className="nav-link" onClick={closeMenu}>
 							Projects
 						</a>
 					</li>

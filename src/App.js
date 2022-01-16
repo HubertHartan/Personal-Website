@@ -6,10 +6,7 @@ import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import About from './components/About';
 import PageBreak from './components/PageBreak';
-import Tax from './components/Tax'
-import Fuel from './components/Fuel'
-import Poem from './components/Poem'
-import IBM from './components/IBM';
+import Project from './components/Projects';
 
 import './CSS/App.css';
 
@@ -23,8 +20,7 @@ function App() {
 	  <Hero/>
 	  <About/>
 	  <PageBreak/>
-	  <Tax/>
-	  <IBM/>
+	  <Project/>
 	 
 		
     </div>
