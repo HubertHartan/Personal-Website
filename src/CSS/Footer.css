@@ -1,0 +1,34 @@
+.contact-title{
+	text-align: center;
+	padding-bottom: 3vh;
+	color: #28FFBF;
+	font-size: 5vh;
+	font-weight: bold;
+}
+
+.contact-body{
+	text-align: center;
+}
+
+.fa-github-square{
+	color: #28FFBF;
+	font-size: 7vh;
+	padding-right: 15vh;
+	padding-top: 1vh;
+}
+
+
+
+.fa-linkedin-in{
+	color: #28FFBF;
+	font-size: 7vh;
+	justify-content: center;
+
+	padding-top: 1.1vh;
+}
+
+.links{
+	padding-top: 10vh;
+	display: flex;
+	justify-content: center;
+}

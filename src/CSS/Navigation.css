@@ -10,6 +10,7 @@
   z-index: 999;
 }
 
+
 .navigation-container {
   display: flex;
   justify-content: center;
@@ -19,14 +20,14 @@
 }
 
 .navigation-logo {
-  color: #fff;
-  justify-self: start;
-  margin-left: 20px;
   cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
   display: flex;
-  align-items: center;
+  margin-right: 33vh;
+
+}
+
+.logo-pic{
+	width: 10vh;
 }
 
 
@@ -70,7 +71,7 @@
 
 @media only screen and (min-width: 960px) {
   .nav-link:hover {
-	border-bottom: 4px solid rgb(236, 39, 39);
+	border-bottom: 4px solid white;
 	transition: all 0.2s ease-out;
   }
 }

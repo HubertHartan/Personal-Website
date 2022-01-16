@@ -84,7 +84,7 @@ a:hover{
 	z-index: 1;
 }
 .animation-area{
-	background: radial-gradient(circle, #04293A, #041C32);
+	background: radial-gradient(circle,#223245,#090A0F);
 	width: 100%;
 	height: 100vh;
 }

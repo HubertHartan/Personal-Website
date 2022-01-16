@@ -49,7 +49,14 @@ p{
 	list-style: none;
 }
 
+#git-logo{
+	color: white;
+	font-size: 3vh;
+	padding-right:0vh;
+	padding-top: 0vh;
+}
 .teammate{
+	color: white;
 	padding-bottom: 2vh;
 }
 .teammate-link{
