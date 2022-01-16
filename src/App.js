@@ -7,8 +7,10 @@ import Hero from './components/Hero';
 import About from './components/About';
 import PageBreak from './components/PageBreak';
 import Project from './components/Projects';
+import Footer from './components/Footer';
 
 import './CSS/App.css';
+
 
 
 function App() {
@@ -21,6 +23,9 @@ function App() {
 	  <About/>
 	  <PageBreak/>
 	  <Project/>
+	  <PageBreak/>
+	  <Footer/>
+	  <PageBreak/>
 	 
 		
     </div>

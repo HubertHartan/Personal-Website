@@ -12,9 +12,9 @@ const Fuel = () =>{
 					<p>Allows users to monitor and arrange their fuel purchases according to recent trends.</p>
 					<p>Developed in collaboration with fellow students: </p>
 					<ul className="team">
-						<li className="teammate"><a href="https://github.com/Flynntes" target="_blank" rel="noreferrer" className="teammate-link"><i className="fab fa-github-square"/> Flynn Tesoriero</a> </li>
-						<li className="teammate"><a href="https://github.com/nipunshrestha" target="_blank" rel="noreferrer" className="teammate-link"><i className="fab fa-github-square"/> Nipun Shrestha</a> </li>
-						<li><a href="https://github.com/TrideepLD" target="_blank" rel="noreferrer" className="teammate-link"><i className="fab fa-github-square"/> Trideep Lal Das</a></li>
+						<li className="teammate"><a href="https://github.com/Flynntes" target="_blank" rel="noreferrer" className="teammate-link"><i className="fab fa-github-square" id='git-logo'/> Flynn Tesoriero</a> </li>
+						<li className="teammate"><a href="https://github.com/nipunshrestha" target="_blank" rel="noreferrer" className="teammate-link"><i className="fab fa-github-square" id='git-logo'/> Nipun Shrestha</a> </li>
+						<li><a href="https://github.com/TrideepLD" target="_blank" rel="noreferrer" className="teammate-link"><i className="fab fa-github-square" id='git-logo'/> Trideep Lal Das</a></li>
 					</ul>
 	
 					<br></br>

@@ -32,7 +32,7 @@ const Navigation = () =>{
 		<nav className="navigation">
 			<div className="navigation-container">
 				<a href="#top" className="navigation-logo">
-					Logo
+					<img  className="logo-pic" src="images/logo.png" alt="Hubert Hartan" />
 				</a>
 				{!displayItems && <div className="menu-icon" onClick={handleClick}>
 					<i className={click ? "fas fa-times":"fas fa-bars"}/>
@@ -58,7 +58,7 @@ const Navigation = () =>{
 					</li>
 
 					<li className="nav-item">
-						<a href="#contacts" className="nav-link" onClick={closeMenu}>
+						<a href="#contact" className="nav-link" onClick={closeMenu}>
 							Contacts
 						</a>
 					</li>

@@ -9,8 +9,8 @@ const Hero = () =>{
 			
 				<div className="name">Hubert Hartan</div>
 				<div className="title">Software {String.fromCharCode(38)} Web Developer</div>
-				<a href="#projects" className="view-work">Previous Projects</a>
-				<a href="#contacts" className="contact-me">Contact Me</a>
+				<a href="#project" className="view-work">Previous Projects</a>
+				<a href="#contact" className="contact-me">Contact Me</a>
 				
 				<div className="tagline">I'm a developer who is self-driven and motivated to continuously improve. I aim to master and learn new concepts in the tech industry.</div>
 
