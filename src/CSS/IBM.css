@@ -42,6 +42,9 @@ p{
 	font-size: 5vh;
 }
 
+.carbon{
+	color: white;
+}
 
 /*List styling for teammate links*/
 .team{
@@ -55,6 +58,7 @@ p{
 }
 .teammate-link{
 	text-decoration: none;
+	color: white;
 }
 
 

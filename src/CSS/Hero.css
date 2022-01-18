@@ -6,43 +6,47 @@ a:hover{
 
 .name{
 	color:#28FFBF;
-	font-size: 500%;
-	margin-left: 20vh;
-	margin-top: 10vh;
-	font-weight: bold;
+	font-size: 6rem;
+	padding-top:4rem;
+	padding-left: 4rem;
+	font-weight: 500;
 }
 .title{
 	color: white;
-	font-size: 300%;
-	margin-left: 20vh;
-	margin-top: 5vh;
-	font-weight: bold;
+	font-size: 2rem;
+	padding-top:1rem;
+	padding-left: 4.3rem;
+	font-weight: 500;
 }
 
 
 .tagline{
 	color: white;
-	margin-left: 20vh;
-	margin-top: 15vh;
-	font-size: 110%;
+	padding-top:1rem;
+	padding-left: 4.3rem;
+	font-size: 1.13rem;
+	font-weight: 500;
 }
 
 .view-work{
-  position:absolute;
-  width: 25vh;
-  height: 8vh;
-  margin-left: 20vh;
-  margin-top: 30vh;
-  color: #28FFBF;
-  border:solid;
-  border-width: medium;
-  background: transparent;
-  border-radius: 5px;
+  	position:absolute;
+  	width: 9rem;
+  	height: 3rem;
+  	margin-top:5.5rem;
+ 	margin-left: 4.3rem;
+	padding-top: 0.8rem;
   
-  font-weight: bold;
-  text-decoration: none;
-  text-align: center;
-  padding-top: 2vh;
+  	border:solid;
+  	border-color: #28FFBF;
+  	border-width: thin;
+  	background: transparent;
+  	border-radius: 5px;
+  
+  	color: #28FFBF;;
+
+  	text-decoration: none;
+  	text-align: center;
+  
   
 }
 
@@ -53,21 +57,24 @@ a:hover{
 }
 
 .contact-me{
-	position: absolute;
-	width: 25vh;
-  	height: 8vh;
-	left: 53vh;
-	margin-top: 30vh;
+
+	position:absolute;
+  	width: 9rem;
+  	height: 3rem;
+  	margin-top:5.5rem;
+ 	margin-left: 15rem;
+	padding-top: 0.8rem;
+
 	color: #ffffff;
 	border: solid;
-  	border-width: medium;
+  	border-width: thin;
   	background: transparent;
 	border-radius: 5px;
 
-	font-weight: bold;
+	
 	text-decoration: none;
   	text-align: center;
-	padding-top: 2vh;
+	
 }
 
 .contact-me:hover{
@@ -86,14 +93,14 @@ a:hover{
 .animation-area{
 	background: radial-gradient(circle,#223245,#090A0F);
 	width: 100%;
-	height: 100vh;
+	height: 32.5rem;
 }
 .box-area{
 	position: absolute;
 	top:0;
 	left:0;
 	width:100%;
-	height: 100vh;
+	height: 32.5rem;
 	
 }
 
@@ -101,55 +108,58 @@ a:hover{
 	position: absolute;
 	display: block;
 	list-style: none;
-	width: 25px;
-	height: 25px;
+	width: 1rem;
+	height: 1rem;
 	background: rgb(255, 255, 255,0.2);
 	animation-name: animate;
 	animation-duration: 20s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
-	bottom: -15vh;
+	bottom: -5.55rem;
 	
 }
 
 .box-area li:nth-child(1){
 	left:86%;
-	width: 80px;
-	height: 80px;
+	width: 5rem;
+	height: 5rem;
 	animation-delay: 0s;
 }
 .box-area li:nth-child(2){
-	left:12%;
-	width: 30px;
-	height: 30px;
-	animation-delay: 1.5s;
+	left:4%;
+	width: 2.5rem;
+	height: 2.5rem;
+	animation-delay: 0s;
 	animation-duration: 10s;
 }
 .box-area li:nth-child(3){
 	left:70%;
-	width: 100px;
-	height: 100px;
-	animation-delay: 5.5s;
+	width: 6rem;
+	height: 6rem;
+	animation-delay: 0s;
+	animation-duration: 8s;
 }
 .box-area li:nth-child(4){
 	left:42%;
-	width: 150px;
-	height: 150px;
+	width: 7rem;
+	height: 7rem;
 	animation-delay: 0s;
-	animation-duration: 15s;
+	animation-duration: 13s;
 }
 
 .box-area li:nth-child(5){
 	left:65%;
-	width: 40px;
-	height: 40px;
+	width: 3rem;
+	height: 3rem;
 	animation-delay: 0s;
+	animation-duration: 12s;
 }
 .box-area li:nth-child(6){
 	left:15%;
-	width: 110px;
-	height: 110px;
-	animation-delay: 3.5s;
+	width: 5.5rem;
+	height: 5.5rem;
+	animation-delay: 0s;
+	animation-duration: 13s;
 }
 
 @keyframes animate {

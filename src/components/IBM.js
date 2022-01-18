@@ -10,7 +10,7 @@ const IBM = () =>{
 			<div className="IBM-info">
 				<div className="IBM-title">IBM Sankofa Healthcare UI</div>
 				<div className="fuel-body">
-					<p>Created using React.js and <a href="https://www.carbondesignsystem.com/" target="_blank" rel="noreferrer">Carbon Design Systems</a></p>
+					<p>Created using React.js and <a href="https://www.carbondesignsystem.com/" className="carbon" target="_blank" rel="noreferrer">Carbon Design Systems</a></p>
 					<p>A user interface created for the Sankofa Healthcare Project </p>
 					<p>Developed in collaboration with IBM and fellow students: </p>
 

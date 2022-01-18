@@ -59,7 +59,7 @@ const Navigation = () =>{
 
 					<li className="nav-item">
 						<a href="#contact" className="nav-link" onClick={closeMenu}>
-							Contacts
+							Contact Me
 						</a>
 					</li>
 
