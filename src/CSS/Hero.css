@@ -86,14 +86,14 @@ a:hover{
 
 
 .hero-container{
-	width: 100%;
-	height: 100%;
+	
+	height: 100vh;
 	position: absolute;
 	z-index: 1;
 }
 .animation-area{
 	background: radial-gradient(circle,#223245,#090A0F);
-	width: 100%;
+	
 	height: 32.5rem;
 }
 .box-area{
